@@ -1,6 +1,6 @@
 body {
   font-family: 'Roboto', Helvetica, sans-serif;
-  background-color: grey;
+  background-color: whitesmoke;
   margin: 0;
   padding: 0;
 }
@@ -20,6 +20,14 @@ h6 {
   padding: 0 1rem;
 }
 
+ /* Contrast Fixes */
+
+input, textarea, button {
+  background-color:whitesmoke;
+  color: #000000;
+} 
+
+/* skip-links */
 .skip-links{
   list-style: none;
   margin: 0;
